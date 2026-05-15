@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "thc-addon",
+  "version": "${version}",
+  "name": "Foundation Addon",
+  "description": "Foundation-Addon",
+  "authors": [
+    "StubbledBannana"
+  ],
+  "contact": {
+    "sources": "https://github.com/StubbledBannana/Foundation-Addon"
+  },
+  "icon": "assets/foundation/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.foundation.FoundationAddon"
+    ]
+  },
+  "mixins": [
+    "foundation-addon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "255,255,0",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}

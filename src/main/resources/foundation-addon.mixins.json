@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.foundation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "THCMixin",
+    "LivingEntityMixin",
+    "accessor.UpdateSelectedSlotS2CPacketAccessor",
+    "accessor.ExplosionS2CPacketAccessor",
+    "accessor.PlayerInventoryAccessor",
+    ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
