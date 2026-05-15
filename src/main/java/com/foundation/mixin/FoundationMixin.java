@@ -1,6 +1,6 @@
 package com.foundation.mixin;
 
-import com.thcaddons.FoundationAddon;
+import com.foundation.FoundationAddon;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
 import org.spongepowered.asm.mixin.Mixin;

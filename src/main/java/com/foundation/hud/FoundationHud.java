@@ -6,7 +6,7 @@ import meteordevelopment.meteorclient.systems.hud.HudElementInfo;
 import meteordevelopment.meteorclient.systems.hud.HudRenderer;
 import meteordevelopment.meteorclient.utils.render.color.Color;
 
-public class THCHud extends HudElement {
+public class FoundationHud extends HudElement {
     /**
      * The {@code name} parameter should be in kebab-case.
      */

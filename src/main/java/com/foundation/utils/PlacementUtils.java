@@ -1,4 +1,4 @@
-package com.thcaddons.utils;
+package com.foundation.utils;
 
 import meteordevelopment.meteorclient.utils.entity.EntityUtils;
 import meteordevelopment.meteorclient.utils.player.FindItemResult;
