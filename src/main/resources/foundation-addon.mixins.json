@@ -3,7 +3,7 @@
   "package": "com.foundation.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "THCMixin",
+    "FoundationMixin",
     "LivingEntityMixin",
     "accessor.UpdateSelectedSlotS2CPacketAccessor",
     "accessor.ExplosionS2CPacketAccessor",
